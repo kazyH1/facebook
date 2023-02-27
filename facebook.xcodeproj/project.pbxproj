@@ -16,7 +16,10 @@
 		001E933828A3B21400006A18 /* facebookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001E933728A3B21400006A18 /* facebookTests.swift */; };
 		001E934228A3B21400006A18 /* facebookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001E934128A3B21400006A18 /* facebookUITests.swift */; };
 		001E934428A3B21400006A18 /* facebookUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001E934328A3B21400006A18 /* facebookUITestsLaunchTests.swift */; };
-		005806A328A3E21D00254A50 /* 1387381D-AE6D-4DCC-BCDC-11AEA409B9AC_1_105_c.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 005806A228A3E21D00254A50 /* 1387381D-AE6D-4DCC-BCDC-11AEA409B9AC_1_105_c.jpeg */; };
+		00CFF1E729A7AF86002BC220 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CFF1E529A7AF86002BC220 /* TableViewCell.swift */; };
+		00CFF1E829A7AF86002BC220 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00CFF1E629A7AF86002BC220 /* TableViewCell.xib */; };
+		00CFF1EB29AA659F002BC220 /* TableViewCell2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CFF1E929AA659F002BC220 /* TableViewCell2.swift */; };
+		00CFF1EC29AA659F002BC220 /* TableViewCell2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00CFF1EA29AA659F002BC220 /* TableViewCell2.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,7 +53,10 @@
 		001E933D28A3B21400006A18 /* facebookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = facebookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		001E934128A3B21400006A18 /* facebookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = facebookUITests.swift; sourceTree = "<group>"; };
 		001E934328A3B21400006A18 /* facebookUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = facebookUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		005806A228A3E21D00254A50 /* 1387381D-AE6D-4DCC-BCDC-11AEA409B9AC_1_105_c.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "1387381D-AE6D-4DCC-BCDC-11AEA409B9AC_1_105_c.jpeg"; path = "../../../../Downloads/1387381D-AE6D-4DCC-BCDC-11AEA409B9AC_1_105_c.jpeg"; sourceTree = "<group>"; };
+		00CFF1E529A7AF86002BC220 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		00CFF1E629A7AF86002BC220 /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		00CFF1E929AA659F002BC220 /* TableViewCell2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell2.swift; sourceTree = "<group>"; };
+		00CFF1EA29AA659F002BC220 /* TableViewCell2.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell2.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +107,6 @@
 		001E931F28A3B21000006A18 /* facebook */ = {
 			isa = PBXGroup;
 			children = (
-				005806A228A3E21D00254A50 /* 1387381D-AE6D-4DCC-BCDC-11AEA409B9AC_1_105_c.jpeg */,
 				001E932028A3B21000006A18 /* AppDelegate.swift */,
 				001E932228A3B21000006A18 /* SceneDelegate.swift */,
 				001E932428A3B21000006A18 /* ViewController.swift */,
@@ -109,6 +114,10 @@
 				001E932928A3B21400006A18 /* Assets.xcassets */,
 				001E932B28A3B21400006A18 /* LaunchScreen.storyboard */,
 				001E932E28A3B21400006A18 /* Info.plist */,
+				00CFF1E929AA659F002BC220 /* TableViewCell2.swift */,
+				00CFF1EA29AA659F002BC220 /* TableViewCell2.xib */,
+				00CFF1E529A7AF86002BC220 /* TableViewCell.swift */,
+				00CFF1E629A7AF86002BC220 /* TableViewCell.xib */,
 			);
 			path = facebook;
 			sourceTree = "<group>";
@@ -235,8 +244,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				001E932D28A3B21400006A18 /* LaunchScreen.storyboard in Resources */,
+				00CFF1E829A7AF86002BC220 /* TableViewCell.xib in Resources */,
 				001E932A28A3B21400006A18 /* Assets.xcassets in Resources */,
-				005806A328A3E21D00254A50 /* 1387381D-AE6D-4DCC-BCDC-11AEA409B9AC_1_105_c.jpeg in Resources */,
+				00CFF1EC29AA659F002BC220 /* TableViewCell2.xib in Resources */,
 				001E932828A3B21000006A18 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,7 +272,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00CFF1EB29AA659F002BC220 /* TableViewCell2.swift in Sources */,
 				001E932528A3B21000006A18 /* ViewController.swift in Sources */,
+				00CFF1E729A7AF86002BC220 /* TableViewCell.swift in Sources */,
 				001E932128A3B21000006A18 /* AppDelegate.swift in Sources */,
 				001E932328A3B21000006A18 /* SceneDelegate.swift in Sources */,
 			);
